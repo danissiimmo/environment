@@ -1,25 +1,30 @@
 .environment {
     position: absolute;
     margin-top: 10px;
-    margin-left: 777px;
+    right: 38%;
+    max-width: 21%;
 }
 .sun {
     position: absolute;
+    max-width: 12%;
 }
 .whatisenvironment {
     position: absolute;
-    margin-top: 383px;
-    margin-left: 550px;
+    top: 40%;
+    right: 30%;
+    max-width: 40%;
 }
 .thiis {
     position: absolute;
-    margin-top: 473px;
-    margin-left: 737px;
+    top: 50%;
+    max-width: 24%;
+    right: 38%;
 }
 .board {
     position: absolute;
-    margin-top: 230px;
-    margin-left: 1291px;
+    top: 23%;
+    max-width: 35%;
+    right: 1%;
 }
 .board {
     animation-name: board;
@@ -34,36 +39,34 @@
  
 @keyframes board {
     0% {
-        transform: scale(0.95);
-        opacity: 0.9;       
+        transform: scale(0.95);     
     }
     50% {
         transform: scale(1);
         opacity: 1; 
     }   
     100% {
-        transform: scale(0.95);
-        opacity: 0.9;   
+        transform: scale(0.95); 
     }           
 }
  
 @-webkit-keyframes board {
     0% {
-        -webkit-transform: scale(0.95);
-        opacity: 0.9;       
+        -webkit-transform: scale(0.95);     
     }
     50% {
         -webkit-transform: scale(1);
         opacity: 1; 
     }   
     100% {
-        -webkit-transform: scale(0.95);
-        opacity: 0.9;   
+        -webkit-transform: scale(0.95);  
     }           
 }
 .waves {
     position: absolute;
-    margin-top: 759px;
+    top: 79.7%;
+    min-width: 0%;
+    max-width: 100%;
 }
 .waves {
     animation-name: waves;
@@ -107,7 +110,9 @@
 }
 .waves2 {
     position: absolute;
-    margin-top: 759px;
+    top: 79.7%;
+    min-width: 0%;
+    max-width: 100%;
 }
 .waves2 {
     animation-name: waves2;
@@ -151,13 +156,16 @@
 }
 .sceintist {
     position: absolute;
-    margin-top: 558px;
-    margin-left: 154px;
+    top: 58%;
+    min-width: 0%;
+    max-width: 30%;
+    left: 5%;
 }
 .clouds {
     position: absolute;
-    margin-top: 957px;
-    margin-right: 1000px;
+    top: 100%;
+    min-width: 0%;
+    max-width: 100%;
 }
 .clouds{
     animation-name: clouds;
@@ -195,8 +203,10 @@
 }
 .bird {
     position: absolute;
-    margin-top: 1338px;
-    margin-left: 1603px;
+    top: 140%;
+    min-width: 0%;
+    max-width: 40%;
+    left: 85%;
 }
 .bird {
     -webkit-transition: all 1s ease;
@@ -205,17 +215,21 @@
     -ms-transition: all 1s ease;
     transition: all 1s ease;}
 .bird:hover {
-    margin-left: 1400px;
+    left: 80%;
 }
 .basket {
     position: absolute;
-    margin-top: 1601px;
-    margin-left: 122px;
+    top: 166%;
+    min-width: 0%;
+    max-width: 35%;
+    right: 60%;
 }
 .littlebird {
     position: absolute;
-    margin-top: 1635px;
-    margin-left: 290px;
+    top: 169%;
+    min-width: 0%;
+    max-width: 8%;
+    right: 78%;
 }
 .littlebird {
     -webkit-transition: all 0.5s ease;
@@ -232,21 +246,31 @@
     transform: rotate(360deg);}
 .due {
     position: absolute;
-    margin-top: 1508px;
-    margin-left: 858px;
+    top: 160%;
+    min-width: 0%;
+    max-width: 55%;
+    right: 5%;
 }
 .ground {
     position: absolute;
-    margin-top: 2705px;
+    top: 280%;
+    min-width: 0%;
+    max-width: 100%;
+    right: 0%;
 }
 .racoon {
     position: absolute;
-    margin-top: 2867px;
+    top: 296%;
+    min-width: 0%;
+    max-width: 45%;
+    right: 55%;
 }
 .koala {
     position: absolute;
-    margin-top: 2751px;
-    margin-left: 1350px;
+    top: 290%;
+    min-width: 0%;
+    max-width: 26%;
+    right: 5%;
 }
 .koala{
     animation-name: koala;
@@ -284,17 +308,23 @@
 }
 .koalabody {
     position: absolute;
-    margin-top: 2750px;
-    margin-left: 1350px;
+    top: 284%;
+    min-width: 0%;
+    max-width: 26%;
+    right: 5%;
 }
 .mount {
     position: absolute;
-    margin-top: 2141px;
+    top: 220%;
+    min-width: 0%;
+    max-width: 100%;
 }
 .hello {
     position: absolute;
-    margin-top: 2291px;
-    margin-left: 351px;
+    top: 235%;
+    min-width: 0%;
+    max-width: 70%;
+    right: 12%;
 }
 
 html{
@@ -448,6 +478,8 @@ body{
 }
 .rubish {
     position: absolute;
-    margin-top: 3561px;
-    margin-left: 115px;
+    top: 370%;
+    min-width: 0%;
+    max-width: 100%;
+    right: 5%;
 }
