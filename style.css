@@ -23,8 +23,8 @@
 .board {
     position: absolute;
     top: 23%;
-    max-width: 35%;
-    right: 1%;
+    width: 115%;
+    right: -4%;
 }
 .board {
     animation-name: board;
@@ -156,10 +156,9 @@
 }
 .sceintist {
     position: absolute;
-    top: 58%;
-    min-width: 0%;
-    max-width: 30%;
+    margin-top: 28%;
     left: 5%;
+    max-width: 30%;
 }
 .clouds {
     position: absolute;
@@ -478,7 +477,7 @@ body{
 }
 .rubish {
     position: absolute;
-    top: 370%;
+    top: 360%;
     min-width: 0%;
     max-width: 100%;
     right: 5%;
