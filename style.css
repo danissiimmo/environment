@@ -10,19 +10,19 @@
 }
 .whatisenvironment {
     position: absolute;
-    top: 40%;
+    padding-top: 20%;
     right: 30%;
     max-width: 40%;
 }
 .thiis {
     position: absolute;
-    top: 50%;
+    padding-top: 25%;
     max-width: 24%;
     right: 38%;
 }
 .board {
     position: absolute;
-    top: 23%;
+    padding-top: 15%;
     width: 115%;
     right: -4%;
 }
@@ -64,7 +64,7 @@
 }
 .waves {
     position: absolute;
-    top: 79.7%;
+    padding-top: 79.7%;
     min-width: 0%;
     max-width: 100%;
 }
@@ -110,7 +110,7 @@
 }
 .waves2 {
     position: absolute;
-    top: 79.7%;
+    padding-top: 79.7%;
     min-width: 0%;
     max-width: 100%;
 }
@@ -156,13 +156,13 @@
 }
 .sceintist {
     position: absolute;
-    margin-top: 28%;
+    padding-top: 30%;
     left: 5%;
     max-width: 30%;
 }
 .clouds {
     position: absolute;
-    top: 100%;
+    padding-top: 50%;
     min-width: 0%;
     max-width: 100%;
 }
@@ -202,7 +202,7 @@
 }
 .bird {
     position: absolute;
-    top: 140%;
+    padding-top: 70%;
     min-width: 0%;
     max-width: 40%;
     left: 85%;
@@ -218,24 +218,24 @@
 }
 .basket {
     position: absolute;
-    top: 166%;
+    padding-top: 84.5%;
     min-width: 0%;
     max-width: 35%;
     right: 60%;
 }
 .littlebird {
     position: absolute;
-    top: 169%;
+    padding-top: 86%;
     min-width: 0%;
     max-width: 8%;
     right: 78%;
 }
 .littlebird {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 13s ease;
+    -moz-transition: all 13s ease;
+    -o-transition: all 13s ease;
+    -ms-transition: all 13s ease;
+    transition: all 13s ease;
     }
     .littlebird:hover {
     -webkit-transform: rotate(360deg);
@@ -245,28 +245,28 @@
     transform: rotate(360deg);}
 .due {
     position: absolute;
-    top: 160%;
+    padding-top: 80%;
     min-width: 0%;
     max-width: 55%;
     right: 5%;
 }
 .ground {
     position: absolute;
-    top: 280%;
+    padding-top: 140%;
     min-width: 0%;
     max-width: 100%;
     right: 0%;
 }
 .racoon {
     position: absolute;
-    top: 296%;
+    padding-top: 150%;
     min-width: 0%;
     max-width: 45%;
     right: 55%;
 }
 .koala {
     position: absolute;
-    top: 290%;
+    padding-top: 145%;
     min-width: 0%;
     max-width: 26%;
     right: 5%;
@@ -275,8 +275,8 @@
     animation-name: koala;
     -webkit-animation-name: koala;    
  
-    animation-duration: 2.5s;   
-    -webkit-animation-duration: 2.5s;
+    animation-duration: 4s;   
+    -webkit-animation-duration: 4s;
  
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
@@ -284,43 +284,43 @@
  
 @keyframes koala {
     0% {
-        transform: rotate(-4deg);   
+        transform: rotate(0deg);   
     }
     50% {
-        transform: rotate(4deg);
+        transform: rotate(0.5deg);
     }
     100% {
-        transform: rotate(-4deg);   
+        transform: rotate(0deg);   
     }                       
 }
  
 @-webkit-keyframes koala {
     0% {
-        -webkit-transform: rotate(-4deg);   
+        -webkit-transform: rotate(0deg);   
     }
     50% {
-        -webkit-transform: rotate(4deg);
+        -webkit-transform: rotate(0.5deg);
     }
     100% {
-        -webkit-transform: rotate(-4deg);   
+        -webkit-transform: rotate(0deg);   
     }               
 }
 .koalabody {
     position: absolute;
-    top: 284%;
+    padding-top: 145%;
     min-width: 0%;
     max-width: 26%;
     right: 5%;
 }
 .mount {
     position: absolute;
-    top: 220%;
+    padding-top: 120%;
     min-width: 0%;
     max-width: 100%;
 }
 .hello {
     position: absolute;
-    top: 235%;
+    padding-top: 120%;
     min-width: 0%;
     max-width: 70%;
     right: 12%;
@@ -477,7 +477,7 @@ body{
 }
 .rubish {
     position: absolute;
-    top: 360%;
+    padding-top: 190%;
     min-width: 0%;
     max-width: 100%;
     right: 5%;
